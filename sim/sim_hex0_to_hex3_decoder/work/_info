@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vhex0_to_hex3_decoder
+Z0 !s110 1587839263
+!i10b 1
+!s100 H2UTBAUBmGL1>JJc_Z1KN0
+Il?=3mP;XXaV_Jd6U[P1:E3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder
+w1587836819
+8C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/hex0_to_hex3_decoder.v
+FC:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/hex0_to_hex3_decoder.v
+L0 7
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1587839263.000000
+!s107 C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/hex0_to_hex3_decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/hex0_to_hex3_decoder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vhex0_to_hex3_decoder_tb
+R0
+!i10b 1
+!s100 DzY1dUOE3i7ZCz]?zCU]N2
+IiJ7RF36BPRXE><SZnnjZQ3
+R1
+R2
+w1587839260
+8C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/hex0_to_hex3_decoder_tb.v
+FC:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/hex0_to_hex3_decoder_tb.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/hex0_to_hex3_decoder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/hex0_to_hex3_decoder_tb.v|
+!i113 1
+R5
+R6
+vSevenSeg
+R0
+!i10b 1
+!s100 <<o^:LPXL?:GZ6Ijd]PV>1
+I3e^75ZmMb?=0CNWAWFnQ=3
+R1
+R2
+w1580391287
+8C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/SevenSeg.v
+FC:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/SevenSeg.v
+L0 14
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/SevenSeg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/SevenSeg.v|
+!i113 1
+R5
+R6
+n@seven@seg
+vUser_ROM
+R0
+!i10b 1
+!s100 j>@RGR1PafzG8ONZ26TkB2
+I>E=5JFJVmU67M3YU;9a853
+R1
+R2
+w1586493878
+8C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/User_ROM.v
+FC:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/User_ROM.v
+L0 39
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/User_ROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/User_ROM.v|
+!i113 1
+R5
+R6
+n@user_@r@o@m

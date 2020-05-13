@@ -1,0 +1,116 @@
+Archive Project report for FinalProject_GoneFishIn
+Thu Apr 30 01:11:40 2020
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Thu Apr 30 01:11:40 2020 ;
+; Revision Name          ; FinalProject_GoneFishIn               ;
+; Top-level Entity Name  ; FinalProject_GoneFishIn               ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/FinalProject_GoneFishIn/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/FinalProject_GoneFishIn/syn/FinalProject_GoneFishIn.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'FinalProject_GoneFishIn.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4832 megabytes
+    Info: Processing ended: Thu Apr 30 01:11:40 2020
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
+
+
++--------------------------------------------------------------+
+; Files Archived                                               ;
++--------------------------------------------------------------+
+; File Name                                                    ;
++--------------------------------------------------------------+
+; ../src/access_controller.v                                   ;
+; ../src/biDirBCD.v                                            ;
+; ../src/button_shaper.v                                       ;
+; ../src/countdownTimer.v                                      ;
+; ../src/difficultySelector.v                                  ;
+; ../src/FinalProject_GoneFishIn.v                             ;
+; ../src/gameController.v                                      ;
+; ../src/hex0_to_hex3_decoder.v                                ;
+; ../src/hex4_to_hex5_decoder.v                                ;
+; ../src/LEDBlinker.v                                          ;
+; ../src/LFSR16.v                                              ;
+; ../src/multiReg.v                                            ;
+; ../src/Password_ROM.v                                        ;
+; ../src/ram.v                                                 ;
+; ../src/ramController.v                                       ;
+; ../src/RangeLFSR16.v                                         ;
+; ../src/scorekeeper.v                                         ;
+; ../src/SevenSeg.v                                            ;
+; ../src/User_ROM.v                                            ;
+; C:/FinalProject_GoneFishIn/src/access_controller.v           ;
+; C:/FinalProject_GoneFishIn/src/biDirBCD.v                    ;
+; C:/FinalProject_GoneFishIn/src/button_shaper.v               ;
+; C:/FinalProject_GoneFishIn/src/countdownTimer.v              ;
+; C:/FinalProject_GoneFishIn/src/difficultySelector.v          ;
+; C:/FinalProject_GoneFishIn/src/FinalProject_GoneFishIn.v     ;
+; C:/FinalProject_GoneFishIn/src/gameController.v              ;
+; C:/FinalProject_GoneFishIn/src/hex0_to_hex3_decoder.v        ;
+; C:/FinalProject_GoneFishIn/src/hex4_to_hex5_decoder.v        ;
+; C:/FinalProject_GoneFishIn/src/LEDBlinker.v                  ;
+; C:/FinalProject_GoneFishIn/src/LFSR16.v                      ;
+; C:/FinalProject_GoneFishIn/src/multiReg.v                    ;
+; C:/FinalProject_GoneFishIn/src/Password_ROM.v                ;
+; C:/FinalProject_GoneFishIn/src/ram.v                         ;
+; C:/FinalProject_GoneFishIn/src/ramController.v               ;
+; C:/FinalProject_GoneFishIn/src/RangeLFSR16.v                 ;
+; C:/FinalProject_GoneFishIn/src/scorekeeper.v                 ;
+; C:/FinalProject_GoneFishIn/src/SevenSeg.v                    ;
+; C:/FinalProject_GoneFishIn/src/User_ROM.v                    ;
+; c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf ;
+; FinalProject_GoneFishIn.qpf                                  ;
+; FinalProject_GoneFishIn.qsf                                  ;
++--------------------------------------------------------------+
+
+

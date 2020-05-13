@@ -1,0 +1,389 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "access_green_led",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex6[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex6[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex6[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex6[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex7[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex7[6]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[0]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[1]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[3]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[4]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[5]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[6]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[7]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[8]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[9]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[10]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[11]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[12]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[13]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[14]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[15]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[16]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[17]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[18]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[19]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[20]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[21]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[22]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[23]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[24]",
+					"strict" : false
+				},
+				{
+					"name" : "lightBar[25]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "startingDiff[1]",
+					"strict" : false
+				},
+				{
+					"name" : "startingDiff[2]",
+					"strict" : false
+				},
+				{
+					"name" : "startingDiff[0]",
+					"strict" : false
+				},
+				{
+					"name" : "access_button_unshapped",
+					"strict" : false
+				},
+				{
+					"name" : "access_switch[0]",
+					"strict" : false
+				},
+				{
+					"name" : "access_switch[1]",
+					"strict" : false
+				},
+				{
+					"name" : "access_switch[2]",
+					"strict" : false
+				},
+				{
+					"name" : "access_switch[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cast_button_unshapped",
+					"strict" : false
+				},
+				{
+					"name" : "reel_button_unshapped",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/george/Documents/school/add/Lab3_HODGKINS_G/sim_digitTimer
+vLFSR16
+Z0 !s110 1585256382
+!i10b 1
+!s100 T2fmQ?74HGIU]36W8>X@h1
+IH1ON3^LFKJ>>E[bYJjh7e0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/george/Documents/school/add/Lab4_HODGKINS_G/sim_lfsr
+w1584368124
+8/home/george/Documents/school/add/Lab4_HODGKINS_G/sim_lfsr/LFSR16.v
+F/home/george/Documents/school/add/Lab4_HODGKINS_G/sim_lfsr/LFSR16.v
+L0 9
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1585256382.000000
+!s107 /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_lfsr/LFSR16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/george/Documents/school/add/Lab4_HODGKINS_G/sim_lfsr/LFSR16.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@l@f@s@r16
+vtb_LFSR16
+R0
+!i10b 1
+!s100 3@_l6Mo;=cf=flcIzHzl[3
+IGkaQY@^1UM3Zl]XioJ6Ra0
+R1
+R2
+w1584370038
+8/home/george/Documents/school/add/Lab4_HODGKINS_G/sim_lfsr/tb_LFSR16.v
+F/home/george/Documents/school/add/Lab4_HODGKINS_G/sim_lfsr/tb_LFSR16.v
+L0 11
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_lfsr/tb_LFSR16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/george/Documents/school/add/Lab4_HODGKINS_G/sim_lfsr/tb_LFSR16.v|
+!i113 1
+R5
+R6
+ntb_@l@f@s@r16

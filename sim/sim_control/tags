@@ -1,0 +1,167 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/e0a976d7/
+BOOT	gameController.v	/^	localparam NONE = 0, FISH = 1, BOOT = 2, LOSE = 3, WIN = 4;$/;"	c	module:gameController
+Bits	multiReg.v	/^	parameter Bits = 4;	$/;"	c	module:multiReg
+CLK	LFSR16.v	/^	input CLK, RST;$/;"	p	module:LFSR16
+CLK	biDirBCD.v	/^	input CLK, RST;$/;"	p	module:biDirBCD
+CLK	countdownTimer.v	/^	input CLK, RST;$/;"	p	module:countdownTimer
+CLK	gameController.v	/^	input CLK, RST;$/;"	p	module:gameController
+CLK	tb_countdownTimer.v	/^	reg CLK, RST;$/;"	r	module:tb_countdownTimer
+CarryOut	biDirBCD.v	/^	output CarryOut;$/;"	p	module:biDirBCD
+CarryOut	biDirBCD.v	/^	reg CarryOut;$/;"	r	module:biDirBCD
+Count	biDirBCD.v	/^	input Count;$/;"	p	module:biDirBCD
+Counter	biDirBCD.v	/^	reg [3:0] Counter;$/;"	r	module:biDirBCD
+CurrentValue	countdownTimer.v	/^	output [Digits*4-1:0] CurrentValue;$/;"	p	module:countdownTimer
+Digits	countdownTimer.v	/^	parameter Digits = 5; \/\/ 5 digits is decimal xx.xxx$/;"	c	module:countdownTimer
+Direction	biDirBCD.v	/^	parameter Direction = 1;$/;"	c	module:biDirBCD
+FISH	gameController.v	/^	localparam NONE = 0, FISH = 1, BOOT = 2, LOSE = 3, WIN = 4;$/;"	c	module:gameController
+HundthDigit	tb_countdownTimer.v	/^	wire [3:0] HundthDigit = TimerValue [7:4];$/;"	n	module:tb_countdownTimer
+LEDBlinker	LEDBlinker.v	/^module LEDBlinker (lightThese, blinkThese, lightBar, blinkBit, CLK, RST);$/;"	m
+LEDGoLeft	gameController.v	/^	reg LEDGoRight, LEDGoLeft, resetLED;$/;"	r	module:gameController
+LEDGoRight	gameController.v	/^	reg LEDGoRight, LEDGoLeft, resetLED;$/;"	r	module:gameController
+LFSR16	LFSR16.v	/^module LFSR16 (Restart, Run, Value, CLK, RST);$/;"	m
+LFSRTarget	countdownTimer.v	/^	parameter LFSRTarget = 16'h9CED; \/\/ counter value 49999998 (50 MHz clock)$/;"	c	module:countdownTimer
+LOSE	gameController.v	/^	localparam NONE = 0, FISH = 1, BOOT = 2, LOSE = 3, WIN = 4;$/;"	c	module:gameController
+NONE	gameController.v	/^	localparam NONE = 0, FISH = 1, BOOT = 2, LOSE = 3, WIN = 4;$/;"	c	module:gameController
+OnesDigit	tb_countdownTimer.v	/^	wire [3:0] OnesDigit = TimerValue[15:12];$/;"	n	module:tb_countdownTimer
+OutValue	biDirBCD.v	/^	output [3:0] OutValue;$/;"	p	module:biDirBCD
+RST	LFSR16.v	/^	input CLK, RST;$/;"	p	module:LFSR16
+RST	biDirBCD.v	/^	input CLK, RST;$/;"	p	module:biDirBCD
+RST	countdownTimer.v	/^	input CLK, RST;$/;"	p	module:countdownTimer
+RST	gameController.v	/^	input CLK, RST;$/;"	p	module:gameController
+RST	tb_countdownTimer.v	/^	reg CLK, RST;$/;"	r	module:tb_countdownTimer
+Restart	LFSR16.v	/^	input Restart;$/;"	p	module:LFSR16
+Restart	countdownTimer.v	/^	input Restart;$/;"	p	module:countdownTimer
+Restart	tb_countdownTimer.v	/^	reg Run, Restart;$/;"	r	module:tb_countdownTimer
+Run	LFSR16.v	/^	input Run;$/;"	p	module:LFSR16
+Run	countdownTimer.v	/^	input Run;$/;"	p	module:countdownTimer
+Run	tb_countdownTimer.v	/^	reg Run, Restart;$/;"	r	module:tb_countdownTimer
+Set	biDirBCD.v	/^	input Set;$/;"	p	module:biDirBCD
+SetValue	biDirBCD.v	/^	input [3:0] SetValue;$/;"	p	module:biDirBCD
+StartValue	countdownTimer.v	/^	input [Digits*4-1:0] StartValue;$/;"	p	module:countdownTimer
+StartValue	tb_countdownTimer.v	/^	reg [19:0] StartValue;$/;"	r	module:tb_countdownTimer
+State	countdownTimer.v	/^	reg [2:0] State;$/;"	r	module:countdownTimer
+State	gameController.v	/^	reg [3:0] State, nextState;$/;"	r	module:gameController
+TensDigit	tb_countdownTimer.v	/^	wire [3:0] TensDigit = TimerValue[19:16];$/;"	n	module:tb_countdownTimer
+TenthDigit	tb_countdownTimer.v	/^	wire [3:0] TenthDigit = TimerValue [11:8];$/;"	n	module:tb_countdownTimer
+ThouthDigit	tb_countdownTimer.v	/^	wire [3:0] ThouthDigit = TimerValue [3:0];$/;"	n	module:tb_countdownTimer
+TimerDone	countdownTimer.v	/^	output TimerDone;$/;"	p	module:countdownTimer
+TimerDone	countdownTimer.v	/^	reg TimerDone;$/;"	r	module:countdownTimer
+TimerDone	tb_countdownTimer.v	/^	wire TimerDone;$/;"	n	module:tb_countdownTimer
+TimerValue	tb_countdownTimer.v	/^	wire [19:0] TimerValue;$/;"	n	module:tb_countdownTimer
+Value	LFSR16.v	/^	output [15:0] Value;$/;"	p	module:LFSR16
+WIN	gameController.v	/^	localparam NONE = 0, FISH = 1, BOOT = 2, LOSE = 3, WIN = 4;$/;"	c	module:gameController
+baseValue	valueRandomizer.v	/^	input [baseWidth - 1:0] baseValue;$/;"	p	module:valueRandomizer
+baseWidth	valueRandomizer.v	/^	parameter baseWidth = 16;$/;"	c	module:valueRandomizer
+biDirBCD	biDirBCD.v	/^module biDirBCD (Count, SetValue, Set, OutValue, CarryOut, CLK, RST);$/;"	m
+blinkBit	LEDBlinker.v	/^	output blinkBit;$/;"	p	module:LEDBlinker
+blinkBit	gameController.v	/^	output blinkBit;$/;"	p	module:gameController
+blinkOn	LEDBlinker.v	/^	reg blinkOn;$/;"	r	module:LEDBlinker
+blinkThese	LEDBlinker.v	/^	input [25:0] blinkThese;$/;"	p	module:LEDBlinker
+blinkThese	gameController.v	/^	wire blinkThese = leftLEDBound | rightLEDBound | currentLED;$/;"	n	module:gameController
+blinkTime	LEDBlinker.v	/^	localparam blinkTime = {4'h5, 4'h0, 4'h0}; \/\/ .500 sec$/;"	c	module:LEDBlinker
+bootOnHook	gameController.v	/^	localparam waitingforStart = 0, waitingforFish = 1, fishOrBoot = 2, bootOnHook = 3,$/;"	c	module:gameController
+castButton	gameController.v	/^	input castButton;$/;"	p	module:gameController
+catchBoot	gameController.v	/^		catchBoot = 4, catchingFish = 5, stalemateWithFish = 6, leftOneLED = 7,$/;"	c	module:gameController
+catchFish	gameController.v	/^		rightOneLED = 8, catchFish = 9, gameOver = 10, gameDone = 11;$/;"	c	module:gameController
+catchingFish	gameController.v	/^		catchBoot = 4, catchingFish = 5, stalemateWithFish = 6, leftOneLED = 7,$/;"	c	module:gameController
+count	countdownTimer.v	/^			wire count;$/;"	n	block:countdownTimer.counters
+countdownTimer	countdownTimer.v	/^module countdownTimer (StartValue, Restart, Run, CurrentValue, TimerDone, CLK, RST);$/;"	m
+counterCarry	countdownTimer.v	/^	wire [Digits-1:0] counterCarry;$/;"	n	module:countdownTimer
+counters	countdownTimer.v	/^		for (d = 0; d < Digits; d = d + 1) begin: counters$/;"	b	module:countdownTimer
+counting	countdownTimer.v	/^	localparam waiting = 0, running = 1, counting = 2, paused = 3, timeout = 4;$/;"	c	module:countdownTimer
+currentLED	gameController.v	/^	wire [25:0] currentLED;$/;"	n	module:gameController
+currentRand	gameController.v	/^	wire currentRand; \/\/ current value of the LFSR$/;"	n	module:gameController
+currentScore	difficultySelector.v	/^	input [7:0] currentScore;$/;"	p	module:difficultySelector
+currentScore	gameController.v	/^	input [7:0] currentScore;$/;"	p	module:gameController
+currentScore	tb_difficultySelector.v	/^	wire [7:0] currentScore = {scoreOnes, scoreTens};$/;"	n	module:tb_difficultySelector
+currentTime	countdownTimer.v	/^	wire [Digits*4-1:0] currentTime;$/;"	n	module:countdownTimer
+currentValue	multiReg.v	/^	output [Bits-1:0] currentValue;$/;"	p	module:multiReg
+d	countdownTimer.v	/^	genvar d;$/;"	r	module:countdownTimer
+difficultySelector	difficultySelector.v	/^module difficultySelector (startingDiff, currentScore, reelTime, fishTime);$/;"	m
+fishOnesAdd	difficultySelector.v	/^	reg [3:0] fishOnesAdd;$/;"	r	module:difficultySelector
+fishOnesAdd	difficultySelector.v	/^	wire [7:0] fishTimeSumPart = fishTimePrelim[19:12] + {scoreTens, fishOnesAdd};$/;"	n	module:difficultySelector
+fishOrBoot	gameController.v	/^	localparam waitingforStart = 0, waitingforFish = 1, fishOrBoot = 2, bootOnHook = 3,$/;"	c	module:gameController
+fishTime	difficultySelector.v	/^	output [19:0] fishTime; \/\/ assigned at end of module$/;"	p	module:difficultySelector
+fishTime	tb_difficultySelector.v	/^	wire [19:0] fishTime;$/;"	n	module:tb_difficultySelector
+fishTimeDisp	gameController.v	/^	output [7:0] fishTimeDisp;$/;"	p	module:gameController
+fishTimeInvalid	tb_difficultySelector.v	/^	wire fishTimeInvalid =$/;"	n	module:tb_difficultySelector
+fishTimePrelim	difficultySelector.v	/^	reg [19:0] fishTimePrelim;$/;"	r	module:difficultySelector
+fishTimeSumPart	difficultySelector.v	/^	wire [7:0] fishTimeSumPart = fishTimePrelim[19:12] + {scoreTens, fishOnesAdd};$/;"	n	module:difficultySelector
+fishTimerDone	gameController.v	/^	wire fishTimerDone, reelTimerDone; \/\/ bits indicating the timer has timed out$/;"	n	module:gameController
+fishTimerLoad	gameController.v	/^	wire [19:0] fishTimerLoad; \/\/ fish timer load value$/;"	n	module:gameController
+gameControl	gameController.v	/^	input gameControl;$/;"	p	module:gameController
+gameController	gameController.v	/^module gameController ($/;"	m
+gameDone	gameController.v	/^		rightOneLED = 8, catchFish = 9, gameOver = 10, gameDone = 11;$/;"	c	module:gameController
+gameInfo	gameController.v	/^	output [3:0] gameInfo;$/;"	p	module:gameController
+gameInfo	gameController.v	/^	reg [3:0] gameInfo;$/;"	r	module:gameController
+gameOver	gameController.v	/^		rightOneLED = 8, catchFish = 9, gameOver = 10, gameDone = 11;$/;"	c	module:gameController
+leftLEDBound	gameController.v	/^	localparam leftLEDBound = 26'b1 << 14; \/\/ LEDR11$/;"	c	module:gameController
+leftOneLED	gameController.v	/^		catchBoot = 4, catchingFish = 5, stalemateWithFish = 6, leftOneLED = 7,$/;"	c	module:gameController
+lightBar	LEDBlinker.v	/^	output [25:0] lightBar;$/;"	p	module:LEDBlinker
+lightBar	LEDBlinker.v	/^	reg [25:0] lightBar;$/;"	r	module:LEDBlinker
+lightBar	gameController.v	/^	output [25:0] lightBar;$/;"	p	module:gameController
+lightThese	LEDBlinker.v	/^	input [25:0] lightThese;$/;"	p	module:LEDBlinker
+lightThese	gameController.v	/^	localparam lightThese =$/;"	c	module:gameController
+loadBit	multiReg.v	/^	input loadBit;$/;"	p	module:multiReg
+loadValue	multiReg.v	/^	input [Bits-1:0] loadValue;$/;"	p	module:multiReg
+multiReg	multiReg.v	/^module multiReg (loadValue, loadBit, shiftLeft, shiftRight, currentValue, CLK, RST);$/;"	m
+nextState	countdownTimer.v	/^	reg [2:0] nextState;$/;"	r	module:countdownTimer
+nextState	gameController.v	/^	reg [3:0] State, nextState;$/;"	r	module:gameController
+paused	countdownTimer.v	/^	localparam waiting = 0, running = 1, counting = 2, paused = 3, timeout = 4;$/;"	c	module:countdownTimer
+reelButton	gameController.v	/^	input reelButton;$/;"	p	module:gameController
+reelHundthsSub	difficultySelector.v	/^	reg [3:0] reelHundthsSub, reelTenthsSub;$/;"	r	module:difficultySelector
+reelHundthsSub	difficultySelector.v	/^	wire [7:0] reelTimeDiffPart = reelTimePrelim[11:4] - {reelTenthsSub, reelHundthsSub};$/;"	n	module:difficultySelector
+reelTenthsSub	difficultySelector.v	/^	reg [3:0] reelHundthsSub, reelTenthsSub;$/;"	r	module:difficultySelector
+reelTime	difficultySelector.v	/^	output [11:0] reelTime; \/\/ assigned at end of module$/;"	p	module:difficultySelector
+reelTime	tb_difficultySelector.v	/^	wire [11:0] reelTime;$/;"	n	module:tb_difficultySelector
+reelTimeDiffPart	difficultySelector.v	/^	wire [7:0] reelTimeDiffPart = reelTimePrelim[11:4] - {reelTenthsSub, reelHundthsSub};$/;"	n	module:difficultySelector
+reelTimeInvalid	tb_difficultySelector.v	/^	wire reelTimeInvalid = $/;"	n	module:tb_difficultySelector
+reelTimePrelim	difficultySelector.v	/^	reg [11:0] reelTimePrelim;$/;"	r	module:difficultySelector
+reelTimerDone	gameController.v	/^	wire fishTimerDone, reelTimerDone; \/\/ bits indicating the timer has timed out$/;"	n	module:gameController
+reelTimerLoad	gameController.v	/^	wire [11:0] reelTimerLoad; \/\/ reel timer load value$/;"	n	module:gameController
+resetLED	gameController.v	/^	reg LEDGoRight, LEDGoLeft, resetLED;$/;"	r	module:gameController
+restartLFSR	countdownTimer.v	/^	reg runLFSR, restartLFSR;$/;"	r	module:countdownTimer
+rightLEDBound	gameController.v	/^	localparam rightLEDBound = 26'b1 << 3; \/\/ LEDG5$/;"	c	module:gameController
+rightOneLED	gameController.v	/^		rightOneLED = 8, catchFish = 9, gameOver = 10, gameDone = 11;$/;"	c	module:gameController
+rstFishTimer	gameController.v	/^	reg rstFishTimer, rstReelTimer; \/\/ bits telling the timer to reset and load new values$/;"	r	module:gameController
+rstReelTimer	gameController.v	/^	reg rstFishTimer, rstReelTimer; \/\/ bits telling the timer to reset and load new values$/;"	r	module:gameController
+runFishTimer	gameController.v	/^	reg runFishTimer, runReelTimer; \/\/ bits telling the timer to run$/;"	r	module:gameController
+runLFSR	countdownTimer.v	/^	reg runLFSR, restartLFSR;$/;"	r	module:countdownTimer
+runReelTimer	gameController.v	/^	reg runFishTimer, runReelTimer; \/\/ bits telling the timer to run$/;"	r	module:gameController
+running	countdownTimer.v	/^	localparam waiting = 0, running = 1, counting = 2, paused = 3, timeout = 4;$/;"	c	module:countdownTimer
+scoreDown	gameController.v	/^	output scoreUp, scoreDown;$/;"	p	module:gameController
+scoreDown	gameController.v	/^	reg scoreUp, scoreDown;$/;"	r	module:gameController
+scoreOnes	difficultySelector.v	/^	wire [3:0] scoreOnes = currentScore[3:0];$/;"	n	module:difficultySelector
+scoreOnes	tb_difficultySelector.v	/^	reg [3:0] scoreOnes, scoreTens;$/;"	r	module:tb_difficultySelector
+scoreTens	difficultySelector.v	/^	wire [3:0] scoreTens = currentScore[7:4];$/;"	n	module:difficultySelector
+scoreTens	tb_difficultySelector.v	/^	reg [3:0] scoreOnes, scoreTens;$/;"	r	module:tb_difficultySelector
+scoreUp	gameController.v	/^	output scoreUp, scoreDown;$/;"	p	module:gameController
+scoreUp	gameController.v	/^	reg scoreUp, scoreDown;$/;"	r	module:gameController
+shift1	LFSR16.v	/^	wire [15:0] shift1 = state ^ (state << 7);$/;"	n	module:LFSR16
+shift2	LFSR16.v	/^	wire [15:0] shift2 = shift1 ^ (shift1 >> 9);$/;"	n	module:LFSR16
+shift3	LFSR16.v	/^	wire [15:0] shift3 = shift2 ^ (shift2 << 8);$/;"	n	module:LFSR16
+shiftLeft	multiReg.v	/^	input shiftLeft, shiftRight;$/;"	p	module:multiReg
+shiftRegValue	countdownTimer.v	/^	wire [15:0] shiftRegValue;$/;"	n	module:countdownTimer
+shiftRight	multiReg.v	/^	input shiftLeft, shiftRight;$/;"	p	module:multiReg
+stalemateWithFish	gameController.v	/^		catchBoot = 4, catchingFish = 5, stalemateWithFish = 6, leftOneLED = 7,$/;"	c	module:gameController
+startingDiff	difficultySelector.v	/^	input [2:0] startingDiff;$/;"	p	module:difficultySelector
+startingDiff	gameController.v	/^	input [2:0] startingDiff;$/;"	p	module:gameController
+startingDiff	tb_difficultySelector.v	/^	reg [3:0] startingDiff;$/;"	r	module:tb_difficultySelector
+startingLED	gameController.v	/^	localparam startingLED = 26'b1 << 9;$/;"	c	module:gameController
+state	LFSR16.v	/^	reg [15:0] state;$/;"	r	module:LFSR16
+storedValue	multiReg.v	/^	reg [Bits-1:0] storedValue;$/;"	r	module:multiReg
+tb_countdownTimer	tb_countdownTimer.v	/^module tb_countdownTimer;$/;"	m
+tb_difficultySelector	tb_difficultySelector.v	/^module tb_difficultySelector;$/;"	m
+timeout	countdownTimer.v	/^	localparam waiting = 0, running = 1, counting = 2, paused = 3, timeout = 4;$/;"	c	module:countdownTimer
+timerDone	LEDBlinker.v	/^	wire timerDone; \/\/ timeout signal from timer$/;"	n	module:LEDBlinker
+valueRandomizer	valueRandomizer.v	/^module valueRandomizer (baseValue, randomNumber, randomizedValue, CLK, RST);$/;"	m
+waiting	countdownTimer.v	/^	localparam waiting = 0, running = 1, counting = 2, paused = 3, timeout = 4;$/;"	c	module:countdownTimer
+waitingforFish	gameController.v	/^	localparam waitingforStart = 0, waitingforFish = 1, fishOrBoot = 2, bootOnHook = 3,$/;"	c	module:gameController
+waitingforStart	gameController.v	/^	localparam waitingforStart = 0, waitingforFish = 1, fishOrBoot = 2, bootOnHook = 3,$/;"	c	module:gameController

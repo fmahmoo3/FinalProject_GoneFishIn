@@ -1,0 +1,29 @@
+C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/hex0_to_hex3_decoder.v {1 {vlog -work work -stats=none C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/hex0_to_hex3_decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hex0_to_hex3_decoder
+
+Top level modules:
+	hex0_to_hex3_decoder
+
+} {} {}} C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/User_ROM.v {1 {vlog -work work -stats=none C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/User_ROM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module User_ROM
+
+Top level modules:
+	User_ROM
+
+} {} {}} C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/SevenSeg.v {1 {vlog -work work -stats=none C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/SevenSeg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SevenSeg
+
+Top level modules:
+	SevenSeg
+
+} {} {}} C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/hex0_to_hex3_decoder_tb.v {1 {vlog -work work -stats=none C:/FinalProject_GoneFishIn/sim/sim_hex0_to_hex3_decoder/hex0_to_hex3_decoder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hex0_to_hex3_decoder_tb
+
+Top level modules:
+	hex0_to_hex3_decoder_tb
+
+} {} {}}

@@ -1,0 +1,136 @@
+# Loading project gameController
+# reading /home/george/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project difficultySelector
+vsim work.tb_difficultySelector
+# vsim work.tb_difficultySelector 
+# Start time: 13:31:42 on Apr 27,2020
+# Loading work.tb_difficultySelector
+# Loading work.difficultySelector
+quit -sim
+# End time: 13:31:55 on Apr 27,2020, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+# Compile of difficultySelector.v was successful.
+# Compile of tb_difficultySelector.v failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Error opening /home/george/Documents/school/add/project/sim_diffsel/(vlog-13036) /home/george/Documents/school/add/project/sim_diffsel/tb_difficultySelector.v
+# Path name '/home/george/Documents/school/add/project/sim_diffsel/(vlog-13036) /home/george/Documents/school/add/project/sim_diffsel/tb_difficultySelector.v' doesn't exist.
+# Compile of difficultySelector.v was successful.
+# Compile of tb_difficultySelector.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of difficultySelector.v was successful.
+# Compile of tb_difficultySelector.v failed with 4 errors.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of difficultySelector.v was successful.
+# Compile of tb_difficultySelector.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of difficultySelector.v was successful.
+# Compile of tb_difficultySelector.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_difficultySelector
+# vsim work.tb_difficultySelector 
+# Start time: 14:40:45 on Apr 27,2020
+# Loading work.tb_difficultySelector
+# Loading work.difficultySelector
+add wave -position insertpoint  \
+sim:/tb_difficultySelector/CLK \
+sim:/tb_difficultySelector/RST \
+sim:/tb_difficultySelector/currentScore \
+sim:/tb_difficultySelector/fishTime \
+sim:/tb_difficultySelector/fishTimeInvalid \
+sim:/tb_difficultySelector/leftLoseBound \
+sim:/tb_difficultySelector/reelTime \
+sim:/tb_difficultySelector/reelTimeInvalid \
+sim:/tb_difficultySelector/rightLoseBound \
+sim:/tb_difficultySelector/rightLoseBoundRev \
+sim:/tb_difficultySelector/scoreOnes \
+sim:/tb_difficultySelector/scoreTens \
+sim:/tb_difficultySelector/startingDiff \
+sim:/tb_difficultySelector/winZone \
+sim:/tb_difficultySelector/winZoneRev \
+sim:/tb_difficultySelector/winZoneinvalid
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# Compile of difficultySelector.v was successful.
+# Compile of tb_difficultySelector.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_difficultySelector
+# Loading work.difficultySelector
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# Can't move the Now cursor.
+restart -f
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# End time: 14:56:57 on Apr 27,2020, Elapsed time: 0:16:12
+# Errors: 1, Warnings: 24
+# Closing project /home/george/Documents/school/add/project/sim_diffsel/difficultySelector.mpf
+# reading /home/george/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/../modelsim.ini
+project open /home/george/Documents/school/add/project/sim_control/gameController
+# Loading project gameController
+vsim work.tb_gameController
+# vsim work.tb_gameController 
+# Start time: 15:06:07 on Apr 27,2020
+# Loading work.tb_gameController
+# Loading work.gameController
+# Loading work.LFSR16
+# Loading work.difficultySelector
+# Loading work.countdownTimer
+# Loading work.multiReg
+# Loading work.LEDBlinker
+# Loading work.biDirBCD
+# Compile of biDirBCD.v was successful.
+# Compile of countdownTimer.v was successful.
+# Compile of difficultySelector.v was successful.
+# Compile of gameController.v was successful.
+# Compile of LEDBlinker.v was successful.
+# Compile of LFSR16.v was successful.
+# Compile of multiReg.v was successful.
+# Compile of tb_gameController.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of biDirBCD.v was successful.
+# Compile of countdownTimer.v was successful.
+# Compile of difficultySelector.v was successful.
+# Compile of gameController.v was successful.
+# Compile of LEDBlinker.v was successful.
+# Compile of LFSR16.v was successful.
+# Compile of multiReg.v was successful.
+# Compile of tb_gameController.v was successful.
+# 8 compiles, 0 failed with no errors.
+do /home/george/Documents/school/add/project/sim_control/wave.do
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+run
+run
+run
+run
+# End time: 15:40:01 on Apr 27,2020, Elapsed time: 0:33:54
+# Errors: 0, Warnings: 8

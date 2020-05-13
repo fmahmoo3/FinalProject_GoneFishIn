@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/space/Documents/U of H/Year 4/Spring 2020/ECE 5440 - Advanced Digital Design/final project/src
+vscorekeeper
+Z0 !s110 1588296506
+!i10b 1
+!s100 zSaKL6R>C6P=>3Z=iHKNE3
+I<SozVX0Dl8K_kKcJmjnRA1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/space/Documents/U of H/Year 4/Spring 2020/ECE 5440 - Advanced Digital Design/final project/sim_scoreKeeper
+w1588065928
+8C:/Users/space/Documents/U of H/Year 4/Spring 2020/ECE 5440 - Advanced Digital Design/final project/sim_scoreKeeper/scorekeeper.v
+FC:/Users/space/Documents/U of H/Year 4/Spring 2020/ECE 5440 - Advanced Digital Design/final project/sim_scoreKeeper/scorekeeper.v
+L0 10
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1588296506.000000
+!s107 C:/Users/space/Documents/U of H/Year 4/Spring 2020/ECE 5440 - Advanced Digital Design/final project/sim_scoreKeeper/scorekeeper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/space/Documents/U of H/Year 4/Spring 2020/ECE 5440 - Advanced Digital Design/final project/sim_scoreKeeper/scorekeeper.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vscorekeeper_tb
+R0
+!i10b 1
+!s100 BMW]1IC59@LQjoQLRhBKN1
+I`W[_4OXZ1j2>YPEigI:Do1
+R1
+R2
+w1588296503
+8C:/Users/space/Documents/U of H/Year 4/Spring 2020/ECE 5440 - Advanced Digital Design/final project/sim_scoreKeeper/scorekeeper_tb.v
+FC:/Users/space/Documents/U of H/Year 4/Spring 2020/ECE 5440 - Advanced Digital Design/final project/sim_scoreKeeper/scorekeeper_tb.v
+L0 11
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/space/Documents/U of H/Year 4/Spring 2020/ECE 5440 - Advanced Digital Design/final project/sim_scoreKeeper/scorekeeper_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/space/Documents/U of H/Year 4/Spring 2020/ECE 5440 - Advanced Digital Design/final project/sim_scoreKeeper/scorekeeper_tb.v|
+!i113 1
+R5
+R6

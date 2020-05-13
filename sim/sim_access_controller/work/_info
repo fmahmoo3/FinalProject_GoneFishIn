@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vaccess_controller
+!s110 1588247578
+!i10b 1
+!s100 Dm=8dHGYN]dd5BbX8lAke2
+IUckiCkzoL_L55I=dE?fzV0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/FinalProject_GoneFishIn/sim/sim_access_controller
+w1588247166
+8C:\FinalProject_GoneFishIn\sim\sim_access_controller\access_controller.v
+FC:\FinalProject_GoneFishIn\sim\sim_access_controller\access_controller.v
+Z2 L0 20
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1588247578.000000
+!s107 C:\FinalProject_GoneFishIn\sim\sim_access_controller\access_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\FinalProject_GoneFishIn\sim\sim_access_controller\access_controller.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vaccess_controller_tb
+Z7 !s110 1588247579
+!i10b 1
+!s100 S8z;z82bPjeSRbUiKF@in2
+I7cf:nFfzmhSRAW3GGX9Rc2
+R0
+R1
+w1588247569
+8C:\FinalProject_GoneFishIn\sim\sim_access_controller\access_controller_tb.v
+FC:\FinalProject_GoneFishIn\sim\sim_access_controller\access_controller_tb.v
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\FinalProject_GoneFishIn\sim\sim_access_controller\access_controller_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\FinalProject_GoneFishIn\sim\sim_access_controller\access_controller_tb.v|
+!i113 1
+R5
+R6
+vPassword_ROM
+R7
+!i10b 1
+!s100 8Vb`oB:Qn10Hma67NFW<B0
+I>GeIXj=>=1SeP]ak>Onc?3
+R0
+R1
+w1586536175
+8C:/FinalProject_GoneFishIn/sim/sim_access_controller/Password_ROM.v
+FC:/FinalProject_GoneFishIn/sim/sim_access_controller/Password_ROM.v
+Z8 L0 39
+R3
+r1
+!s85 0
+31
+Z9 !s108 1588247579.000000
+!s107 C:/FinalProject_GoneFishIn/sim/sim_access_controller/Password_ROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FinalProject_GoneFishIn/sim/sim_access_controller/Password_ROM.v|
+!i113 1
+R5
+R6
+n@password_@r@o@m
+vUser_ROM
+R7
+!i10b 1
+!s100 j>@RGR1PafzG8ONZ26TkB2
+I10n20im?:5mVZc9nkhXD62
+R0
+R1
+w1586493878
+8C:/FinalProject_GoneFishIn/sim/sim_access_controller/User_ROM.v
+FC:/FinalProject_GoneFishIn/sim/sim_access_controller/User_ROM.v
+R8
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/FinalProject_GoneFishIn/sim/sim_access_controller/User_ROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FinalProject_GoneFishIn/sim/sim_access_controller/User_ROM.v|
+!i113 1
+R5
+R6
+n@user_@r@o@m

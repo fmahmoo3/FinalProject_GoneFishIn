@@ -1,0 +1,418 @@
+# Loading project LFSR16
+# reading /home/george/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project decimalTimer
+# Compile of decimalTimer.v failed with 1 errors.
+# Compile of tb_decimalTimer.v failed with 2 errors.
+# Compile of biDirBCD.v was successful.
+# 3 compiles, 2 failed with 3 errors.
+# Compile of decimalTimer.v failed with 1 errors.
+# Compile of tb_decimalTimer.v failed with 2 errors.
+# Compile of biDirBCD.v was successful.
+# 3 compiles, 2 failed with 3 errors.
+# Compile of decimalTimer.v failed with 1 errors.
+# Compile of tb_decimalTimer.v failed with 2 errors.
+# Compile of biDirBCD.v was successful.
+# 3 compiles, 2 failed with 3 errors.
+# Compile of decimalTimer.v was successful.
+# Compile of tb_decimalTimer.v failed with 2 errors.
+# Compile of biDirBCD.v was successful.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of decimalTimer.v was successful.
+# Compile of tb_decimalTimer.v was successful.
+# Compile of biDirBCD.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.tb_secondTimer
+# vsim work.tb_secondTimer 
+# Start time: 11:34:52 on Mar 16,2020
+# Loading work.tb_secondTimer
+# Loading work.decimalTimer
+# ** Error: (vsim-3033) /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v(89): Instantiation of 'LFSR16' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_secondTimer/DUT File: /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v
+#         Searched libraries:
+#             /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/work
+# Error loading design
+# End time: 11:34:52 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of decimalTimer.v was successful.
+# Compile of tb_decimalTimer.v was successful.
+# Compile of biDirBCD.v was successful.
+# Compile of LFSR16.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.tb_secondTimer
+# vsim work.tb_secondTimer 
+# Start time: 11:35:21 on Mar 16,2020
+# Loading work.tb_secondTimer
+# Loading work.decimalTimer
+# Loading work.LFSR16
+# ** Error: (vsim-3033) /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v(73): Instantiation of 'BiDirBCD' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Region: /tb_secondTimer/DUT/counters[0] File: /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v
+#         Searched libraries:
+#             /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/work
+# ** Error: (vsim-3033) /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v(73): Instantiation of 'BiDirBCD' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Region: /tb_secondTimer/DUT/counters[1] File: /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v
+#         Searched libraries:
+#             /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/work
+# ** Error: (vsim-3033) /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v(73): Instantiation of 'BiDirBCD' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Region: /tb_secondTimer/DUT/counters[2] File: /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v
+#         Searched libraries:
+#             /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/work
+# ** Error: (vsim-3033) /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v(73): Instantiation of 'BiDirBCD' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Region: /tb_secondTimer/DUT/counters[3] File: /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v
+#         Searched libraries:
+#             /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/work
+# ** Error: (vsim-3033) /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v(73): Instantiation of 'BiDirBCD' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Region: /tb_secondTimer/DUT/counters[4] File: /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v
+#         Searched libraries:
+#             /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/work
+# Error loading design
+# End time: 11:35:21 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# Compile of decimalTimer.v was successful.
+# Compile of tb_decimalTimer.v was successful.
+# Compile of biDirBCD.v was successful.
+# Compile of LFSR16.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.tb_secondTimer
+# vsim work.tb_secondTimer 
+# Start time: 11:35:54 on Mar 16,2020
+# Loading work.tb_secondTimer
+# Loading work.decimalTimer
+# Loading work.LFSR16
+# Loading work.biDirBCD
+add wave -position insertpoint  \
+sim:/tb_secondTimer/CLK \
+sim:/tb_secondTimer/HundthDigit \
+sim:/tb_secondTimer/OnesDigit \
+sim:/tb_secondTimer/Overflow \
+sim:/tb_secondTimer/RST \
+sim:/tb_secondTimer/TensDigit \
+sim:/tb_secondTimer/TenthDigit \
+sim:/tb_secondTimer/ThouthDigit \
+sim:/tb_secondTimer/TimerCtl \
+sim:/tb_secondTimer/TimerRunning
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/tb_secondTimer/DUT/shiftRegValue
+restart -f
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of decimalTimer.v was successful.
+# Compile of tb_decimalTimer.v was successful.
+# Compile of biDirBCD.v was successful.
+# Compile of LFSR16.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_secondTimer
+# Loading work.decimalTimer
+# Loading work.LFSR16
+# Loading work.biDirBCD
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/tb_secondTimer/DUT/State
+restart -f
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+run
+run
+run
+# Break in Module decimalTimer at /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v line 124
+run -continue
+# Break in Module decimalTimer at /home/george/Documents/school/add/Lab4_HODGKINS_G/sim_timer/decimalTimer.v line 124
+run
+run -continue
+run -continue
+run -continue
+run
+run
+run
+run
+# Compile of decimalTimer.v failed with 1 errors.
+# Compile of tb_decimalTimer.v was successful.
+# Compile of biDirBCD.v was successful.
+# Compile of LFSR16.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of decimalTimer.v was successful.
+# Compile of tb_decimalTimer.v was successful.
+# Compile of biDirBCD.v was successful.
+# Compile of LFSR16.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_secondTimer
+# Loading work.decimalTimer
+# Loading work.LFSR16
+# Loading work.biDirBCD
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+# Compile of decimalTimer.v failed with 4 errors.
+# Compile of tb_decimalTimer.v was successful.
+# Compile of biDirBCD.v was successful.
+# Compile of LFSR16.v was successful.
+# 4 compiles, 1 failed with 4 errors.
+restart -f
+# Loading work.tb_secondTimer
+# Loading work.LFSR16
+# Loading work.biDirBCD
+# Compile of decimalTimer.v was successful.
+# Compile of tb_decimalTimer.v was successful.
+# Compile of biDirBCD.v was successful.
+# Compile of LFSR16.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_secondTimer
+# Loading work.decimalTimer
+# Loading work.LFSR16
+# Loading work.biDirBCD
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of decimalTimer.v was successful.
+# Compile of tb_decimalTimer.v was successful.
+# Compile of biDirBCD.v was successful.
+# Compile of LFSR16.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_secondTimer
+# Loading work.decimalTimer
+# Loading work.LFSR16
+# Loading work.biDirBCD
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 12:01:12 on Mar 16,2020, Elapsed time: 0:25:18
+# Errors: 0, Warnings: 64

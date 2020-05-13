@@ -1,0 +1,47 @@
+# Loading project difficultySelector
+# reading /home/george/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project biDirBCD
+# Compile of biDirBCD.v was successful.
+# Compile of tb_biDirBCD.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_biDirBCD
+# vsim work.tb_biDirBCD 
+# Start time: 08:59:38 on Apr 09,2020
+# Loading work.tb_biDirBCD
+# Loading work.biDirBCD
+add wave -position insertpoint  \
+sim:/tb_biDirBCD/dn_LSB \
+sim:/tb_biDirBCD/dn_LSB_Carry \
+sim:/tb_biDirBCD/dn_MSB \
+sim:/tb_biDirBCD/dn_MSB_Carry \
+sim:/tb_biDirBCD/dn_MSB_carry \
+sim:/tb_biDirBCD/up_LSB \
+sim:/tb_biDirBCD/up_LSB_Carry \
+sim:/tb_biDirBCD/up_MSB \
+sim:/tb_biDirBCD/up_MSB_Carry \
+sim:/tb_biDirBCD/up_MSB_carry
+add wave -position insertpoint  \
+sim:/tb_biDirBCD/CLK \
+sim:/tb_biDirBCD/Count \
+sim:/tb_biDirBCD/RST \
+sim:/tb_biDirBCD/Set
+# Compile of biDirBCD.v was successful.
+# Compile of tb_biDirBCD.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_biDirBCD
+# Loading work.biDirBCD
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_biDirBCD/dn_MSB_carry'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_biDirBCD/up_MSB_carry'. 
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+run
+# End time: 09:06:10 on Apr 09,2020, Elapsed time: 0:06:32
+# Errors: 2, Warnings: 8

@@ -1,0 +1,33 @@
+Quartus Prime Archive log --	C:/FinalProject_GoneFishIn/syn/FinalProject_GoneFishIn.qarlog
+
+Archive:	C:/FinalProject_GoneFishIn/syn/FinalProject_GoneFishIn.qar
+Date:		Thu Apr 30 01:11:40 2020
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/FinalProject_GoneFishIn/src/FinalProject_GoneFishIn.v
+C:/FinalProject_GoneFishIn/src/LEDBlinker.v
+C:/FinalProject_GoneFishIn/src/LFSR16.v
+C:/FinalProject_GoneFishIn/src/Password_ROM.v
+C:/FinalProject_GoneFishIn/src/RangeLFSR16.v
+C:/FinalProject_GoneFishIn/src/SevenSeg.v
+C:/FinalProject_GoneFishIn/src/User_ROM.v
+C:/FinalProject_GoneFishIn/src/access_controller.v
+C:/FinalProject_GoneFishIn/src/biDirBCD.v
+C:/FinalProject_GoneFishIn/src/button_shaper.v
+C:/FinalProject_GoneFishIn/src/countdownTimer.v
+C:/FinalProject_GoneFishIn/src/difficultySelector.v
+C:/FinalProject_GoneFishIn/src/gameController.v
+C:/FinalProject_GoneFishIn/src/hex0_to_hex3_decoder.v
+C:/FinalProject_GoneFishIn/src/hex4_to_hex5_decoder.v
+C:/FinalProject_GoneFishIn/src/multiReg.v
+C:/FinalProject_GoneFishIn/src/ram.v
+C:/FinalProject_GoneFishIn/src/ramController.v
+C:/FinalProject_GoneFishIn/src/scorekeeper.v
+C:/FinalProject_GoneFishIn/syn/FinalProject_GoneFishIn.qpf
+C:/FinalProject_GoneFishIn/syn/FinalProject_GoneFishIn.qsf
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 22 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

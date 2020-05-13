@@ -1,0 +1,55 @@
+// ECE 5440
+// Group: Gone Fishin'
+// Module: ramController
+/*
+This module controlls the RAM. When reset is pressed, it initializes the RAM to all 0s.
+Then, if the game is over and the score isn't being reset and the current score is
+greater than the score in the RAM for the current user, it writes the current score
+to the current user's address in RAM. Otherwise, it constantly outputs the score of the
+current user.
+*/
+
+module ramController(currScore,gameDone,scoreRst,userID,clk,rst,scoreFromRam);
+	input gameDone,scoreRst,clk,rst;
+	input [7:0] currScore;
+	input [2:0] userID;
+
+	output [7:0] scoreFromRam;
+
+	reg flag_ram_init,wr;
+	reg [4:0] addr;
+	reg [7:0] ram_data_in;
+
+	ram scores(addr,clk,ram_data_in,wr,scoreFromRam);
+
+	always@(posedge clk) begin
+		if(rst == 1'b0) begin
+			flag_ram_init = 1'b0;
+			addr = 5'b00000;
+			wr = 1'b1;	//write = 1 and read = 0
+			ram_data_in = 8'b00000000;
+		end
+		else begin
+			if(flag_ram_init == 1'b0) begin	//reset RAM
+				wr = 1'b1;
+				addr = addr + 5'b00001;
+				ram_data_in = 8'b00000000;
+				if(addr == 5'b00110)	//initialize the first 6 addresses (which are the only ones that'll be used)
+					flag_ram_init = 1'b1;	//done resetting
+			end
+			else begin
+				addr[0] = userID[0];
+				addr[1] = userID[1];
+				addr[2] = userID[2];
+				addr[3] = 0;
+				addr[4] = 0;
+				if(gameDone && !scoreRst && currScore > scoreFromRam) begin	//write score when game is over and the score wasn't reset
+					wr = 1'b1;
+					ram_data_in = currScore;
+				end
+				else
+					wr = 1'b0;	//otherwise, output the score that corresponds with the current userID
+			end
+		end
+	end
+endmodule

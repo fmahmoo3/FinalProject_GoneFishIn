@@ -1,0 +1,29 @@
+C:/FinalProject_GoneFishIn/sim/sim_access_controller/Password_ROM.v {1 {vlog -work work -stats=none C:/FinalProject_GoneFishIn/sim/sim_access_controller/Password_ROM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Password_ROM
+
+Top level modules:
+	Password_ROM
+
+} {} {}} C:/FinalProject_GoneFishIn/sim/sim_access_controller/User_ROM.v {1 {vlog -work work -stats=none C:/FinalProject_GoneFishIn/sim/sim_access_controller/User_ROM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module User_ROM
+
+Top level modules:
+	User_ROM
+
+} {} {}} C:/FinalProject_GoneFishIn/sim/sim_access_controller/access_controller.v {1 {vlog -work work -stats=none {C:\FinalProject_GoneFishIn\sim\sim_access_controller\access_controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module access_controller
+
+Top level modules:
+	access_controller
+
+} {} {}} C:/FinalProject_GoneFishIn/sim/sim_access_controller/access_controller_tb.v {1 {vlog -work work -stats=none {C:\FinalProject_GoneFishIn\sim\sim_access_controller\access_controller_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module access_controller_tb
+
+Top level modules:
+	access_controller_tb
+
+} {} {}}

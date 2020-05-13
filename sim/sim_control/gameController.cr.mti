@@ -1,0 +1,57 @@
+/home/george/Documents/school/add/project/sim_control/biDirBCD.v {1 {vlog -work work -stats=none /home/george/Documents/school/add/project/sim_control/biDirBCD.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module biDirBCD
+
+Top level modules:
+	biDirBCD
+
+} {} {}} /home/george/Documents/school/add/project/sim_control/tb_gameController.v {1 {vlog -work work -stats=none /home/george/Documents/school/add/project/sim_control/tb_gameController.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_gameController
+
+Top level modules:
+	tb_gameController
+
+} {} {}} /home/george/Documents/school/add/project/sim_control/LEDBlinker.v {1 {vlog -work work -stats=none /home/george/Documents/school/add/project/sim_control/LEDBlinker.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module LEDBlinker
+
+Top level modules:
+	LEDBlinker
+
+} {} {}} /home/george/Documents/school/add/project/sim_control/difficultySelector.v {1 {vlog -work work -stats=none /home/george/Documents/school/add/project/sim_control/difficultySelector.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module difficultySelector
+
+Top level modules:
+	difficultySelector
+
+} {} {}} /home/george/Documents/school/add/project/sim_control/multiReg.v {1 {vlog -work work -stats=none /home/george/Documents/school/add/project/sim_control/multiReg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiReg
+
+Top level modules:
+	multiReg
+
+} {} {}} /home/george/Documents/school/add/project/sim_control/LFSR16.v {1 {vlog -work work -stats=none /home/george/Documents/school/add/project/sim_control/LFSR16.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module LFSR16
+
+Top level modules:
+	LFSR16
+
+} {} {}} /home/george/Documents/school/add/project/sim_control/gameController.v {1 {vlog -work work -stats=none /home/george/Documents/school/add/project/sim_control/gameController.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module gameController
+
+Top level modules:
+	gameController
+
+} {} {}} /home/george/Documents/school/add/project/sim_control/countdownTimer.v {1 {vlog -work work -stats=none /home/george/Documents/school/add/project/sim_control/countdownTimer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module countdownTimer
+
+Top level modules:
+	countdownTimer
+
+} {} {}}

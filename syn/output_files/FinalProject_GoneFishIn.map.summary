@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Apr 29 04:34:22 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : FinalProject_GoneFishIn
+Top-level Entity Name : FinalProject_GoneFishIn
+Family : Cyclone IV E
+Total logic elements : 1,050
+    Total combinational functions : 995
+    Dedicated logic registers : 472
+Total registers : 472
+Total pins : 95
+Total virtual pins : 0
+Total memory bits : 672
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at hex4_to_hex5_decoder.v(46): always construct contains both blocking and non-blocking assignments File: C:/FinalProject_GoneFishIn/src/hex4_to_hex5_decoder.v Line: 46
+Warning (10268): Verilog HDL information at hex0_to_hex3_decoder.v(64): always construct contains both blocking and non-blocking assignments File: C:/FinalProject_GoneFishIn/src/hex0_to_hex3_decoder.v Line: 64
+Warning (10268): Verilog HDL information at access_controller.v(83): always construct contains both blocking and non-blocking assignments File: C:/FinalProject_GoneFishIn/src/access_controller.v Line: 83
